@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Young Serif';
+  src: url('/assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('/assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+:root {
+  --rouse-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
+  --primary-nutmeg: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+} 
+
+body {
+  background-color: var(--eggshell);
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+article.recipe-container {
+  background-color: white;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 690px;
+}
+
+picture {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: .8rem 0;
+  font-size: 25px;
+  font-family: 'Young Serif';
+}
+
+p {
+  color: var(--wenge-brown);
+}
+
+div.preparation-container {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background-color: var(--rouse-white);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+
+h2 {
+  color: var(--dark-raspberry);
+}
+
+ul.info-list {
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+li.info {
+  margin: .8rem 0;
+  color: var(--wenge-brown);
+}
+
+span.info-title {
+  font-weight: 600;
+  color: var(--dark-charcoal);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
