@@ -80,7 +80,7 @@ div.preparation-container {
   border-radius: 8px;
 }
 
-h2 {
+h2.preparation-title {
   color: var(--dark-raspberry);
 }
 
@@ -102,6 +102,7 @@ span.info-title {
 
 h2.ingredients-title {
   font-family: 'Young Serif';
+  color: var(--primary-nutmeg);
 }
 
 ul.ingredients-list {
@@ -113,6 +114,32 @@ li.ingredient {
   font-size: 15px;
   margin: .5rem 0;
   padding-left: 1rem;
+}
+
+section.instructions-container {
+  margin: 2rem 0;
+}
+
+h2.instructions-title {
+  font-family: 'Young Serif';
+  color: var(--primary-nutmeg);
+}
+
+ol.step-list {
+  margin: 1rem 1rem;
+}
+
+li.step {
+  padding-left: 1rem;
+  margin: .7rem;
+  font-size: 15px;
+  color: var(--wenge-brown);
+  line-height: 1.6;
+}
+
+span.step-title {
+  font-weight: 600;
+  color: var(--dark-charcoal);
 }
 
 .attribution { font-size: 11px; text-align: center; }
