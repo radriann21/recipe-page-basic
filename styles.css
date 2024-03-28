@@ -142,5 +142,36 @@ span.step-title {
   color: var(--dark-charcoal);
 }
 
+h2.nutrition-title {
+  font-family: 'Young Serif';
+  color: var(--primary-nutmeg);
+}
+
+p.nutrition-text {
+  font-size: 15px;
+  margin-top: 1.5rem;
+}
+
+.nutrition-table {
+  margin-top: 2rem;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition-table td {
+  border-bottom: 1px solid var(--light-grey); 
+  padding: 8px;
+  text-align: left;
+}
+
+.nutrition-table tr {
+  margin-bottom: 40px; 
+}
+
+td.table-item {
+  color: var(--wenge-brown);
+}
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
