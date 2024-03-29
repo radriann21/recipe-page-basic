@@ -49,10 +49,6 @@ article.recipe-container {
   max-width: 690px;
 }
 
-picture {
-  width: 100%;
-}
-
 img {
   width: 100%;
   height: auto;
@@ -67,8 +63,25 @@ h1 {
   font-family: 'Young Serif';
 }
 
-p {
+h2.ingredients-title, 
+h2.instructions-title, 
+h2.nutrition-title {
+  font-family: 'Young Serif';
+  color: var(--primary-nutmeg);
+}
+
+p,
+p.nutrition-text,
+li.info,
+li.ingredient,
+li.step {
   color: var(--wenge-brown);
+  font-size: 15px;
+}
+
+p.nutrition-text {
+  font-size: 15px;
+  margin-top: 1.5rem;
 }
 
 div.preparation-container {
@@ -100,10 +113,6 @@ span.info-title {
   color: var(--dark-charcoal);
 }
 
-h2.ingredients-title {
-  font-family: 'Young Serif';
-  color: var(--primary-nutmeg);
-}
 
 ul.ingredients-list {
   margin: 1rem 2rem;
@@ -118,11 +127,6 @@ li.ingredient {
 
 section.instructions-container {
   margin: 2rem 0;
-}
-
-h2.instructions-title {
-  font-family: 'Young Serif';
-  color: var(--primary-nutmeg);
 }
 
 ol.step-list {
@@ -140,16 +144,6 @@ li.step {
 span.step-title {
   font-weight: 600;
   color: var(--dark-charcoal);
-}
-
-h2.nutrition-title {
-  font-family: 'Young Serif';
-  color: var(--primary-nutmeg);
-}
-
-p.nutrition-text {
-  font-size: 15px;
-  margin-top: 1.5rem;
 }
 
 .nutrition-table {
@@ -171,7 +165,6 @@ p.nutrition-text {
 td.table-item {
   color: var(--wenge-brown);
 }
-
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
