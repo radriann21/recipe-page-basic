@@ -33,7 +33,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  flex-direction: column;
+  padding: 1rem;
 }
 
 article.recipe-container {
@@ -166,5 +167,5 @@ td.table-item {
   color: var(--wenge-brown);
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { margin-top: .5rem; font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
